@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Njai's Ledger | From Kenya to the World: Finance, Tech & Clarity</title>
+  <meta name="description" content="Njai’s Ledger is a global fintech and finance blog blending technology, mindfulness, and technical writing. From Kenya to the world, we share insights for students, entrepreneurs, and professionals in finance and tech — helping readers stay informed, calm, and future-ready." />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Njai's Ledger</h1>
+    <p class="tagline">From Kenya to the World: Finance, Tech & Clarity.</p>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="reveal">
+      <h2>Welcome to Njai's Ledger</h2>
+      <p>
+        Explore fintech, finance, technology, and mindfulness with a Kenyan perspective for a global audience.
+      </p>
+    </section>
+
+    <section class="reveal">
+      <h2>Why Read Us?</h2>
+      <p>
+        Insights that combine clarity and calm with practical fintech knowledge. Whether you're a student, entrepreneur, or professional, you'll find ideas to grow and stay ahead.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer with Social Links -->
+  <footer>
+    <p>© 2025 Njai's Ledger</p>
+    <p class="tagline">From Kenya to the World: Finance, Tech & Clarity.</p>
+    <div class="socials">
+      <a href="https://tiktok.com/@njaisledger" target="_blank">TikTok</a>
+      <a href="https://facebook.com/njaisledger" target="_blank">Facebook</a>
+      <a href="https://x.com/njaisledger" target="_blank">X</a>
+      <a href="https://instagram.com/njaisledger" target="_blank">Instagram</a>
+      <a href="https://pinterest.com/njaisledger" target="_blank">Pinterest</a>
+    </div>
+  </footer>
+</body>
+</html>

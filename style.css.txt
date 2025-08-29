@@ -1,0 +1,58 @@
+/* Root variables */
+:root {
+  /* Brand colors */
+  --color-primary: #0a2540;   /* Deep fintech blue */
+  --color-secondary: #1d4ed8; /* Lively tech blue */
+  --color-accent: #60a5fa;    /* Accent blue */
+  --color-bg: #f9fafb;        /* Light background */
+  --color-text: #222;         /* Main text */
+  --color-white: #ffffff;
+
+  /* Fonts & sizing */
+  --font-main: Arial, sans-serif;
+  --hero-title-size: 2.5rem;
+  --hero-tagline-size: 1.2rem;
+
+  /* Spacing */
+  --padding-section: 2rem;
+  --max-width: 800px;
+
+  /* Animations */
+  --transition-speed: 0.3s;
+  --gradient-duration: 8s;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  line-height: 1.6;
+  background: var(--color-bg);
+  color: var(--color-text);
+  scroll-behavior: smooth;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  background-size: 200% 200%;
+  animation: gradientShift var(--gradient-duration) ease infinite;
+  color: var(--color-white);
+}
+
+.hero h1 {
+  font-size: var(--hero-title-size);
+  margin-bottom: 0.5rem;
+}
+
+.hero .tagline {
+  font-size: var(--hero-tagline-size);
+  opacity: 0.9;
+  transition: opacity 2s eas
