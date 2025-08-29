@@ -55,4 +55,70 @@ body {
 .hero .tagline {
   font-size: var(--hero-tagline-size);
   opacity: 0.9;
-  transition: opacity 2s eas
+  transition: opacity 2s ease;
+}
+
+/* Scroll reveal sections */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 1s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Content */
+main {
+  padding: var(--padding-section);
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: var(--padding-section);
+  background: var(--color-primary);
+  color: var(--color-white);
+  margin-top: 3rem;
+}
+
+footer .socials {
+  margin-top: 1rem;
+}
+
+footer .socials a {
+  margin: 0 0.5rem;
+  color: var(--color-white);
+  text-decoration: none;
+  position: relative;
+  transition: color var(--transition-speed) ease;
+}
+
+footer .socials a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background: var(--color-accent);
+  transition: width var(--transition-speed);
+  margin: auto;
+}
+
+footer .socials a:hover {
+  color: var(--color-accent);
+}
+
+footer .socials a:hover::after {
+  width: 100%;
+}
+
+/* Animations */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
